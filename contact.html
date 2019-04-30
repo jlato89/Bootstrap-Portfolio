@@ -8,7 +8,7 @@
     <title>About Me</title>
 </head>
 <body>  
-<div class="container-fluid px-0 vh-100" style="background-image:url('assets/images/bg.png');">
+<div class="container-fluid px-0 mb-5 vh-100" style="background-image:url('assets/images/bg.png');">
 
   <!-- Navigation Menu -->
   <div class="container-fluid bg-white border-bottom px-0">
@@ -25,13 +25,13 @@
         <div class="col-md-auto p-0">     <!-- Header Navigation -->
             <ul class="nav justify-content-center">
                 <li class="nav-item">
-                  <h5><a class="nav-link text-muted border-right" href="#">About</a></h5>
+                  <h5><a class="nav-link text-muted border-right" href="index.html">About</a></h5>
                 </li>
                 <li class="nav-item">
-                  <h5><a class="nav-link text-muted border-right" href="#">Portfolio</a></h5>
+                  <h5><a class="nav-link text-muted border-right" href="portfolio.html">Portfolio</a></h5>
                 </li>
                 <li class="nav-item">
-                  <h5><a class="nav-link text-muted pr-0" href="#">Contact</a></h5>
+                  <h5><a class="nav-link text-muted pr-0" href="contact.html">Contact</a></h5>
                 </li>
               </ul>
         </div>
@@ -43,11 +43,25 @@
   <div class="container-fluid px-0 py-4">
     <div class="container bg-white py-3">
       <div class="row border-bottom mx-0">      <!-- Body Header -->
-        <h1>About Me</h1>
+        <h1>Contact</h1>
       </div>
       <div class="row mt-4">
         <div class="col-md pb-3" style="line-height:1.9; color:#777; font-family:Arial, Helvetica, sans-serif;">    <!-- Body Content -->
-
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" placeholder="John Smith">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" placeholder="name@example.com">
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
       </div>
     </div>
